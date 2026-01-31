@@ -1,0 +1,22 @@
+{
+    "model_name": "AgriVision Plant Disease Classifier",
+    "version": "1.0",
+    "creation_date": "2026-01-30 16:56:36",
+    "framework": "TensorFlow/Keras",
+    "base_architecture": "MobileNetV2",
+    "input_shape": [
+        224,
+        224,
+        3
+    ],
+    "num_classes": 38,
+    "test_accuracy": 0.9852060079574585,
+    "test_top3_accuracy": 0.9991441369056702,
+    "model_size_h5_mb": 24.5,
+    "model_size_tflite_mb": 2.72,
+    "avg_inference_time_ms": 17.55,
+    "preprocessing": {
+        "rescale": "1/255",
+        "input_size": 224
+    }
+}
