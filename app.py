@@ -137,7 +137,7 @@ def main():
         uploaded_file = st.file_uploader(
             "Choose an image of a plant leaf",
             type=['jpg', 'jpeg'],
-            help="Upload a clear, well-lit photo of a single leaf, on a WHITE background and AVOID PNG. PNG support has not yet been rolled out."
+            help="Upload a clear, well-lit photo of a single leaf, on a STRONG COLOR background and AVOID PNG. PNG support has not yet been rolled out."
         )
         
         if uploaded_file is not None:
